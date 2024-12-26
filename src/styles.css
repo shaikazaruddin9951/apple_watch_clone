@@ -1,0 +1,71 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Container for customization options */
+  .customization-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  /* Grid for selections */
+  .selection {
+    margin: 0 20px;
+  }
+  
+  .grid, .carousel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .case-item, .band-item {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .case-item:hover, .band-item:hover {
+    transform: scale(1.1);
+    border-color: #000;
+  }
+  
+  /* Price display */
+  .price {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Watch preview */
+  .watch-preview {
+    text-align: center;
+  }
+  
+  .watch-preview img {
+    max-width: 300px;
+    margin: 20px;
+  }
+  
+  /* Collection switch */
+  .collection-switch {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
